@@ -1,0 +1,6738 @@
+{
+  "name": "MathOptFormat Model",
+  "version": {
+    "major": 1,
+    "minor": 7
+  },
+  "variables": [
+    {
+      "name": "storedEnergy[1]_in"
+    },
+    {
+      "name": "storedEnergy[2]_in"
+    },
+    {
+      "name": "storedEnergy[3]_in"
+    },
+    {
+      "name": "storedEnergy[4]_in"
+    },
+    {
+      "name": "inflow[1]"
+    },
+    {
+      "name": "inflow[2]"
+    },
+    {
+      "name": "inflow[3]"
+    },
+    {
+      "name": "inflow[4]"
+    },
+    {
+      "name": "demanda_es[1]"
+    },
+    {
+      "name": "demanda_es[2]"
+    },
+    {
+      "name": "demanda_es[3]"
+    },
+    {
+      "name": "demanda_es[4]"
+    },
+    {
+      "name": "storedEnergy[1]_out"
+    },
+    {
+      "name": "storedEnergy[2]_out"
+    },
+    {
+      "name": "storedEnergy[3]_out"
+    },
+    {
+      "name": "storedEnergy[4]_out"
+    },
+    {
+      "name": "spillEnergy[1]"
+    },
+    {
+      "name": "spillEnergy[2]"
+    },
+    {
+      "name": "spillEnergy[3]"
+    },
+    {
+      "name": "spillEnergy[4]"
+    },
+    {
+      "name": "hydroGeneration[1]"
+    },
+    {
+      "name": "hydroGeneration[2]"
+    },
+    {
+      "name": "hydroGeneration[3]"
+    },
+    {
+      "name": "hydroGeneration[4]"
+    },
+    {
+      "name": "thermal[1,1]"
+    },
+    {
+      "name": "thermal[1,2]"
+    },
+    {
+      "name": "thermal[1,3]"
+    },
+    {
+      "name": "thermal[1,4]"
+    },
+    {
+      "name": "thermal[1,5]"
+    },
+    {
+      "name": "thermal[1,6]"
+    },
+    {
+      "name": "thermal[1,7]"
+    },
+    {
+      "name": "thermal[1,8]"
+    },
+    {
+      "name": "thermal[1,9]"
+    },
+    {
+      "name": "thermal[1,10]"
+    },
+    {
+      "name": "thermal[1,11]"
+    },
+    {
+      "name": "thermal[1,12]"
+    },
+    {
+      "name": "thermal[1,13]"
+    },
+    {
+      "name": "thermal[1,14]"
+    },
+    {
+      "name": "thermal[1,15]"
+    },
+    {
+      "name": "thermal[1,16]"
+    },
+    {
+      "name": "thermal[1,17]"
+    },
+    {
+      "name": "thermal[1,18]"
+    },
+    {
+      "name": "thermal[1,19]"
+    },
+    {
+      "name": "thermal[1,20]"
+    },
+    {
+      "name": "thermal[1,21]"
+    },
+    {
+      "name": "thermal[1,22]"
+    },
+    {
+      "name": "thermal[1,23]"
+    },
+    {
+      "name": "thermal[1,24]"
+    },
+    {
+      "name": "thermal[1,25]"
+    },
+    {
+      "name": "thermal[1,26]"
+    },
+    {
+      "name": "thermal[1,27]"
+    },
+    {
+      "name": "thermal[1,28]"
+    },
+    {
+      "name": "thermal[1,29]"
+    },
+    {
+      "name": "thermal[1,30]"
+    },
+    {
+      "name": "thermal[1,31]"
+    },
+    {
+      "name": "thermal[1,32]"
+    },
+    {
+      "name": "thermal[1,33]"
+    },
+    {
+      "name": "thermal[1,34]"
+    },
+    {
+      "name": "thermal[1,35]"
+    },
+    {
+      "name": "thermal[1,36]"
+    },
+    {
+      "name": "thermal[1,37]"
+    },
+    {
+      "name": "thermal[1,38]"
+    },
+    {
+      "name": "thermal[2,1]"
+    },
+    {
+      "name": "thermal[2,2]"
+    },
+    {
+      "name": "thermal[2,3]"
+    },
+    {
+      "name": "thermal[2,4]"
+    },
+    {
+      "name": "thermal[2,5]"
+    },
+    {
+      "name": "thermal[2,6]"
+    },
+    {
+      "name": "thermal[2,7]"
+    },
+    {
+      "name": "thermal[2,8]"
+    },
+    {
+      "name": "thermal[2,9]"
+    },
+    {
+      "name": "thermal[2,10]"
+    },
+    {
+      "name": "thermal[2,11]"
+    },
+    {
+      "name": "thermal[2,12]"
+    },
+    {
+      "name": "thermal[2,13]"
+    },
+    {
+      "name": "thermal[3,1]"
+    },
+    {
+      "name": "thermal[3,2]"
+    },
+    {
+      "name": "thermal[3,3]"
+    },
+    {
+      "name": "thermal[3,4]"
+    },
+    {
+      "name": "thermal[3,5]"
+    },
+    {
+      "name": "thermal[3,6]"
+    },
+    {
+      "name": "thermal[3,7]"
+    },
+    {
+      "name": "thermal[3,8]"
+    },
+    {
+      "name": "thermal[3,9]"
+    },
+    {
+      "name": "thermal[3,10]"
+    },
+    {
+      "name": "thermal[3,11]"
+    },
+    {
+      "name": "thermal[3,12]"
+    },
+    {
+      "name": "thermal[3,13]"
+    },
+    {
+      "name": "thermal[3,14]"
+    },
+    {
+      "name": "thermal[3,15]"
+    },
+    {
+      "name": "thermal[3,16]"
+    },
+    {
+      "name": "thermal[3,17]"
+    },
+    {
+      "name": "thermal[3,18]"
+    },
+    {
+      "name": "thermal[3,19]"
+    },
+    {
+      "name": "thermal[3,20]"
+    },
+    {
+      "name": "thermal[3,21]"
+    },
+    {
+      "name": "thermal[3,22]"
+    },
+    {
+      "name": "thermal[3,23]"
+    },
+    {
+      "name": "thermal[3,24]"
+    },
+    {
+      "name": "thermal[3,25]"
+    },
+    {
+      "name": "thermal[3,26]"
+    },
+    {
+      "name": "thermal[3,27]"
+    },
+    {
+      "name": "thermal[3,28]"
+    },
+    {
+      "name": "thermal[3,29]"
+    },
+    {
+      "name": "thermal[3,30]"
+    },
+    {
+      "name": "thermal[4,1]"
+    },
+    {
+      "name": "thermal[4,2]"
+    },
+    {
+      "name": "thermal[4,3]"
+    },
+    {
+      "name": "thermal[4,4]"
+    },
+    {
+      "name": "thermal[4,5]"
+    },
+    {
+      "name": "thermal[4,6]"
+    },
+    {
+      "name": "thermal[4,7]"
+    },
+    {
+      "name": "thermal[4,8]"
+    },
+    {
+      "name": "thermal[4,9]"
+    },
+    {
+      "name": "thermal[4,10]"
+    },
+    {
+      "name": "thermal[4,11]"
+    },
+    {
+      "name": "thermal[4,12]"
+    },
+    {
+      "name": "thermal[4,13]"
+    },
+    {
+      "name": "thermal[4,14]"
+    },
+    {
+      "name": "thermal[4,15]"
+    },
+    {
+      "name": "thermal[4,16]"
+    },
+    {
+      "name": "exchange[1,1]"
+    },
+    {
+      "name": "exchange[2,1]"
+    },
+    {
+      "name": "exchange[3,1]"
+    },
+    {
+      "name": "exchange[4,1]"
+    },
+    {
+      "name": "exchange[5,1]"
+    },
+    {
+      "name": "exchange[1,2]"
+    },
+    {
+      "name": "exchange[2,2]"
+    },
+    {
+      "name": "exchange[3,2]"
+    },
+    {
+      "name": "exchange[4,2]"
+    },
+    {
+      "name": "exchange[5,2]"
+    },
+    {
+      "name": "exchange[1,3]"
+    },
+    {
+      "name": "exchange[2,3]"
+    },
+    {
+      "name": "exchange[3,3]"
+    },
+    {
+      "name": "exchange[4,3]"
+    },
+    {
+      "name": "exchange[5,3]"
+    },
+    {
+      "name": "exchange[1,4]"
+    },
+    {
+      "name": "exchange[2,4]"
+    },
+    {
+      "name": "exchange[3,4]"
+    },
+    {
+      "name": "exchange[4,4]"
+    },
+    {
+      "name": "exchange[5,4]"
+    },
+    {
+      "name": "exchange[1,5]"
+    },
+    {
+      "name": "exchange[2,5]"
+    },
+    {
+      "name": "exchange[3,5]"
+    },
+    {
+      "name": "exchange[4,5]"
+    },
+    {
+      "name": "exchange[5,5]"
+    },
+    {
+      "name": "storedEnergy_per[1]"
+    },
+    {
+      "name": "storedEnergy_per[2]"
+    },
+    {
+      "name": "storedEnergy_per[3]"
+    },
+    {
+      "name": "storedEnergy_per[4]"
+    },
+    {
+      "name": "spill_per[1]"
+    },
+    {
+      "name": "spill_per[2]"
+    },
+    {
+      "name": "spill_per[3]"
+    },
+    {
+      "name": "spill_per[4]"
+    },
+    {
+      "name": "thermal_per[1]"
+    },
+    {
+      "name": "thermal_per[2]"
+    },
+    {
+      "name": "thermal_per[3]"
+    },
+    {
+      "name": "thermal_per[4]"
+    },
+    {
+      "name": "thermal_2[1]"
+    },
+    {
+      "name": "thermal_2[2]"
+    },
+    {
+      "name": "thermal_2[3]"
+    },
+    {
+      "name": "thermal_2[4]"
+    },
+    {
+      "name": "hydroGeneration_per[1]"
+    },
+    {
+      "name": "hydroGeneration_per[2]"
+    },
+    {
+      "name": "hydroGeneration_per[3]"
+    },
+    {
+      "name": "hydroGeneration_per[4]"
+    },
+    {
+      "name": "demanda_determ[1]"
+    },
+    {
+      "name": "demanda_determ[2]"
+    },
+    {
+      "name": "demanda_determ[3]"
+    },
+    {
+      "name": "demanda_determ[4]"
+    },
+    {
+      "name": "demanda_cres[1]"
+    },
+    {
+      "name": "demanda_cres[2]"
+    },
+    {
+      "name": "demanda_cres[3]"
+    },
+    {
+      "name": "demanda_cres[4]"
+    },
+    {
+      "name": "demanda_es_porcen[1]"
+    },
+    {
+      "name": "demanda_es_porcen[2]"
+    },
+    {
+      "name": "demanda_es_porcen[3]"
+    },
+    {
+      "name": "demanda_es_porcen[4]"
+    },
+    {
+      "name": "deficit[1,1]"
+    },
+    {
+      "name": "deficit[2,1]"
+    },
+    {
+      "name": "deficit[3,1]"
+    },
+    {
+      "name": "deficit[4,1]"
+    },
+    {
+      "name": "deficit[1,2]"
+    },
+    {
+      "name": "deficit[2,2]"
+    },
+    {
+      "name": "deficit[3,2]"
+    },
+    {
+      "name": "deficit[4,2]"
+    },
+    {
+      "name": "deficit[1,3]"
+    },
+    {
+      "name": "deficit[2,3]"
+    },
+    {
+      "name": "deficit[3,3]"
+    },
+    {
+      "name": "deficit[4,3]"
+    },
+    {
+      "name": "deficit[1,4]"
+    },
+    {
+      "name": "deficit[2,4]"
+    },
+    {
+      "name": "deficit[3,4]"
+    },
+    {
+      "name": "deficit[4,4]"
+    },
+    {
+      "name": "z"
+    },
+    {
+      "name": "x196"
+    }
+  ],
+  "objective": {
+    "sense": "min",
+    "function": {
+      "type": "ScalarAffineFunction",
+      "terms": [
+        {
+          "coefficient": 1142.8,
+          "variable": "deficit[1,1]"
+        },
+        {
+          "coefficient": 1142.8,
+          "variable": "deficit[1,2]"
+        },
+        {
+          "coefficient": 1142.8,
+          "variable": "deficit[1,3]"
+        },
+        {
+          "coefficient": 1142.8,
+          "variable": "deficit[1,4]"
+        },
+        {
+          "coefficient": 2465.4,
+          "variable": "deficit[2,1]"
+        },
+        {
+          "coefficient": 2465.4,
+          "variable": "deficit[2,2]"
+        },
+        {
+          "coefficient": 2465.4,
+          "variable": "deficit[2,3]"
+        },
+        {
+          "coefficient": 2465.4,
+          "variable": "deficit[2,4]"
+        },
+        {
+          "coefficient": 5152.46,
+          "variable": "deficit[3,1]"
+        },
+        {
+          "coefficient": 5152.46,
+          "variable": "deficit[3,2]"
+        },
+        {
+          "coefficient": 5152.46,
+          "variable": "deficit[3,3]"
+        },
+        {
+          "coefficient": 5152.46,
+          "variable": "deficit[3,4]"
+        },
+        {
+          "coefficient": 5845.54,
+          "variable": "deficit[4,1]"
+        },
+        {
+          "coefficient": 5845.54,
+          "variable": "deficit[4,2]"
+        },
+        {
+          "coefficient": 5845.54,
+          "variable": "deficit[4,3]"
+        },
+        {
+          "coefficient": 5845.54,
+          "variable": "deficit[4,4]"
+        },
+        {
+          "coefficient": 31.17,
+          "variable": "thermal[1,1]"
+        },
+        {
+          "coefficient": 3680.38,
+          "variable": "thermal[1,2]"
+        },
+        {
+          "coefficient": 746.46,
+          "variable": "thermal[1,3]"
+        },
+        {
+          "coefficient": 20.12,
+          "variable": "thermal[1,5]"
+        },
+        {
+          "coefficient": 292.53,
+          "variable": "thermal[1,6]"
+        },
+        {
+          "coefficient": 143.16,
+          "variable": "thermal[1,7]"
+        },
+        {
+          "coefficient": 231.39,
+          "variable": "thermal[1,8]"
+        },
+        {
+          "coefficient": 2701.57,
+          "variable": "thermal[1,10]"
+        },
+        {
+          "coefficient": 2252.16,
+          "variable": "thermal[1,11]"
+        },
+        {
+          "coefficient": 910.86,
+          "variable": "thermal[1,12]"
+        },
+        {
+          "coefficient": 152.94,
+          "variable": "thermal[1,13]"
+        },
+        {
+          "coefficient": 132.53,
+          "variable": "thermal[1,14]"
+        },
+        {
+          "coefficient": 697.21,
+          "variable": "thermal[1,16]"
+        },
+        {
+          "coefficient": 697.21,
+          "variable": "thermal[1,17]"
+        },
+        {
+          "coefficient": 1005.25,
+          "variable": "thermal[1,18]"
+        },
+        {
+          "coefficient": 988.63,
+          "variable": "thermal[1,19]"
+        },
+        {
+          "coefficient": 813.25,
+          "variable": "thermal[1,20]"
+        },
+        {
+          "coefficient": 813.16,
+          "variable": "thermal[1,21]"
+        },
+        {
+          "coefficient": 1005.25,
+          "variable": "thermal[1,22]"
+        },
+        {
+          "coefficient": 1005.25,
+          "variable": "thermal[1,23]"
+        },
+        {
+          "coefficient": 310.41,
+          "variable": "thermal[1,26]"
+        },
+        {
+          "coefficient": 388.4,
+          "variable": "thermal[1,28]"
+        },
+        {
+          "coefficient": 969.55,
+          "variable": "thermal[1,29]"
+        },
+        {
+          "coefficient": 470.34,
+          "variable": "thermal[1,30]"
+        },
+        {
+          "coefficient": 813.07,
+          "variable": "thermal[1,31]"
+        },
+        {
+          "coefficient": 514.66,
+          "variable": "thermal[1,33]"
+        },
+        {
+          "coefficient": 561.34,
+          "variable": "thermal[1,34]"
+        },
+        {
+          "coefficient": 320.66,
+          "variable": "thermal[1,35]"
+        },
+        {
+          "coefficient": 155.86,
+          "variable": "thermal[1,36]"
+        },
+        {
+          "coefficient": 908.2,
+          "variable": "thermal[1,37]"
+        },
+        {
+          "coefficient": 413.04,
+          "variable": "thermal[1,38]"
+        },
+        {
+          "coefficient": 82.18,
+          "variable": "thermal[2,1]"
+        },
+        {
+          "coefficient": 103.4,
+          "variable": "thermal[2,2]"
+        },
+        {
+          "coefficient": 107.02,
+          "variable": "thermal[2,3]"
+        },
+        {
+          "coefficient": 381.47,
+          "variable": "thermal[2,4]"
+        },
+        {
+          "coefficient": 311.53,
+          "variable": "thermal[2,5]"
+        },
+        {
+          "coefficient": 362.67,
+          "variable": "thermal[2,6]"
+        },
+        {
+          "coefficient": 708.84,
+          "variable": "thermal[2,7]"
+        },
+        {
+          "coefficient": 434.59,
+          "variable": "thermal[2,8]"
+        },
+        {
+          "coefficient": 372.62,
+          "variable": "thermal[2,9]"
+        },
+        {
+          "coefficient": 330.64,
+          "variable": "thermal[2,10]"
+        },
+        {
+          "coefficient": 1066.54,
+          "variable": "thermal[2,13]"
+        },
+        {
+          "coefficient": 103.47,
+          "variable": "thermal[3,1]"
+        },
+        {
+          "coefficient": 1261.31,
+          "variable": "thermal[3,2]"
+        },
+        {
+          "coefficient": 2032.67,
+          "variable": "thermal[3,3]"
+        },
+        {
+          "coefficient": 195.14,
+          "variable": "thermal[3,4]"
+        },
+        {
+          "coefficient": 3022.58,
+          "variable": "thermal[3,5]"
+        },
+        {
+          "coefficient": 957.74,
+          "variable": "thermal[3,6]"
+        },
+        {
+          "coefficient": 3374.48,
+          "variable": "thermal[3,7]"
+        },
+        {
+          "coefficient": 3374.48,
+          "variable": "thermal[3,8]"
+        },
+        {
+          "coefficient": 3022.54,
+          "variable": "thermal[3,9]"
+        },
+        {
+          "coefficient": 314.47,
+          "variable": "thermal[3,10]"
+        },
+        {
+          "coefficient": 1852.16,
+          "variable": "thermal[3,11]"
+        },
+        {
+          "coefficient": 1852.16,
+          "variable": "thermal[3,12]"
+        },
+        {
+          "coefficient": 307.2,
+          "variable": "thermal[3,13]"
+        },
+        {
+          "coefficient": 986.34,
+          "variable": "thermal[3,14]"
+        },
+        {
+          "coefficient": 510.12,
+          "variable": "thermal[3,15]"
+        },
+        {
+          "coefficient": 198.84,
+          "variable": "thermal[3,16]"
+        },
+        {
+          "coefficient": 325.64,
+          "variable": "thermal[3,17]"
+        },
+        {
+          "coefficient": 264.74,
+          "variable": "thermal[3,18]"
+        },
+        {
+          "coefficient": 285.83,
+          "variable": "thermal[3,19]"
+        },
+        {
+          "coefficient": 617.68,
+          "variable": "thermal[3,20]"
+        },
+        {
+          "coefficient": 969.56,
+          "variable": "thermal[3,21]"
+        },
+        {
+          "coefficient": 1099.04,
+          "variable": "thermal[3,22]"
+        },
+        {
+          "coefficient": 1099.04,
+          "variable": "thermal[3,23]"
+        },
+        {
+          "coefficient": 941.0,
+          "variable": "thermal[3,24]"
+        },
+        {
+          "coefficient": 566.66,
+          "variable": "thermal[3,25]"
+        },
+        {
+          "coefficient": 962.72,
+          "variable": "thermal[3,26]"
+        },
+        {
+          "coefficient": 962.72,
+          "variable": "thermal[3,27]"
+        },
+        {
+          "coefficient": 450.86,
+          "variable": "thermal[3,28]"
+        },
+        {
+          "coefficient": 229.6,
+          "variable": "thermal[3,29]"
+        },
+        {
+          "coefficient": 832.58,
+          "variable": "thermal[3,30]"
+        },
+        {
+          "coefficient": 151.69,
+          "variable": "thermal[4,1]"
+        },
+        {
+          "coefficient": 83.29,
+          "variable": "thermal[4,2]"
+        },
+        {
+          "coefficient": 307.21,
+          "variable": "thermal[4,3]"
+        },
+        {
+          "coefficient": 83.29,
+          "variable": "thermal[4,4]"
+        },
+        {
+          "coefficient": 145.59,
+          "variable": "thermal[4,10]"
+        },
+        {
+          "coefficient": 101.0,
+          "variable": "thermal[4,11]"
+        },
+        {
+          "coefficient": 186.77,
+          "variable": "thermal[4,12]"
+        },
+        {
+          "coefficient": 145.59,
+          "variable": "thermal[4,13]"
+        },
+        {
+          "coefficient": 273.69,
+          "variable": "thermal[4,14]"
+        },
+        {
+          "coefficient": 969.53,
+          "variable": "thermal[4,15]"
+        },
+        {
+          "coefficient": 969.53,
+          "variable": "thermal[4,16]"
+        },
+        {
+          "coefficient": 1.0,
+          "variable": "x196"
+        }
+      ],
+      "constant": 0.0
+    }
+  },
+  "constraints": [
+    {
+      "name": "exchange_constraint",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -1.0,
+            "variable": "exchange[5,1]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "exchange[5,2]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "exchange[5,3]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "exchange[5,4]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "exchange[1,5]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "exchange[2,5]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "exchange[3,5]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "exchange[4,5]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "state_constraint[1]",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -1.0,
+            "variable": "storedEnergy[1]_in"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "inflow[1]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "storedEnergy[1]_out"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "spillEnergy[1]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "hydroGeneration[1]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "state_constraint[2]",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -1.0,
+            "variable": "storedEnergy[2]_in"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "inflow[2]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "storedEnergy[2]_out"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "spillEnergy[2]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "hydroGeneration[2]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "state_constraint[3]",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -1.0,
+            "variable": "storedEnergy[3]_in"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "inflow[3]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "storedEnergy[3]_out"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "spillEnergy[3]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "hydroGeneration[3]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "state_constraint[4]",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -1.0,
+            "variable": "storedEnergy[4]_in"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "inflow[4]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "storedEnergy[4]_out"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "spillEnergy[4]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "hydroGeneration[4]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c6",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -0.0004982124138590736,
+            "variable": "storedEnergy[1]_out"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "storedEnergy_per[1]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c7",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -0.005097567440817242,
+            "variable": "storedEnergy[2]_out"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "storedEnergy_per[2]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c8",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -0.0019302746201702117,
+            "variable": "storedEnergy[3]_out"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "storedEnergy_per[3]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c9",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -0.007846275765208044,
+            "variable": "storedEnergy[4]_out"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "storedEnergy_per[4]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c10",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,1]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,2]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,3]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,4]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,5]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,6]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,7]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,8]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,9]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,10]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,11]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,12]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,13]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,14]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,15]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,16]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,17]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,18]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,19]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,20]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,21]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,22]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,23]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,24]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,25]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,26]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,27]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,28]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,29]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,30]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,31]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,32]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,33]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,34]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,35]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,36]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,37]"
+          },
+          {
+            "coefficient": -0.0020673924454585693,
+            "variable": "thermal[1,38]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal_per[1]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c11",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -0.05863417551554099,
+            "variable": "thermal[2,1]"
+          },
+          {
+            "coefficient": -0.05863417551554099,
+            "variable": "thermal[2,2]"
+          },
+          {
+            "coefficient": -0.05863417551554099,
+            "variable": "thermal[2,3]"
+          },
+          {
+            "coefficient": -0.05863417551554099,
+            "variable": "thermal[2,4]"
+          },
+          {
+            "coefficient": -0.05863417551554099,
+            "variable": "thermal[2,5]"
+          },
+          {
+            "coefficient": -0.05863417551554099,
+            "variable": "thermal[2,6]"
+          },
+          {
+            "coefficient": -0.05863417551554099,
+            "variable": "thermal[2,7]"
+          },
+          {
+            "coefficient": -0.05863417551554099,
+            "variable": "thermal[2,8]"
+          },
+          {
+            "coefficient": -0.05863417551554099,
+            "variable": "thermal[2,9]"
+          },
+          {
+            "coefficient": -0.05863417551554099,
+            "variable": "thermal[2,10]"
+          },
+          {
+            "coefficient": -0.05863417551554099,
+            "variable": "thermal[2,11]"
+          },
+          {
+            "coefficient": -0.05863417551554099,
+            "variable": "thermal[2,12]"
+          },
+          {
+            "coefficient": -0.05863417551554099,
+            "variable": "thermal[2,13]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal_per[2]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c12",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,1]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,2]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,3]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,4]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,5]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,6]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,7]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,8]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,9]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,10]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,11]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,12]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,13]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,14]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,15]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,16]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,17]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,18]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,19]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,20]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,21]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,22]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,23]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,24]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,25]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,26]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,27]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,28]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,29]"
+          },
+          {
+            "coefficient": -0.00517771738258102,
+            "variable": "thermal[3,30]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal_per[3]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c13",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -0.017267131152494668,
+            "variable": "thermal[4,1]"
+          },
+          {
+            "coefficient": -0.017267131152494668,
+            "variable": "thermal[4,2]"
+          },
+          {
+            "coefficient": -0.017267131152494668,
+            "variable": "thermal[4,3]"
+          },
+          {
+            "coefficient": -0.017267131152494668,
+            "variable": "thermal[4,4]"
+          },
+          {
+            "coefficient": -0.017267131152494668,
+            "variable": "thermal[4,5]"
+          },
+          {
+            "coefficient": -0.017267131152494668,
+            "variable": "thermal[4,6]"
+          },
+          {
+            "coefficient": -0.017267131152494668,
+            "variable": "thermal[4,7]"
+          },
+          {
+            "coefficient": -0.017267131152494668,
+            "variable": "thermal[4,8]"
+          },
+          {
+            "coefficient": -0.017267131152494668,
+            "variable": "thermal[4,9]"
+          },
+          {
+            "coefficient": -0.017267131152494668,
+            "variable": "thermal[4,10]"
+          },
+          {
+            "coefficient": -0.017267131152494668,
+            "variable": "thermal[4,11]"
+          },
+          {
+            "coefficient": -0.017267131152494668,
+            "variable": "thermal[4,12]"
+          },
+          {
+            "coefficient": -0.017267131152494668,
+            "variable": "thermal[4,13]"
+          },
+          {
+            "coefficient": -0.017267131152494668,
+            "variable": "thermal[4,14]"
+          },
+          {
+            "coefficient": -0.017267131152494668,
+            "variable": "thermal[4,15]"
+          },
+          {
+            "coefficient": -0.017267131152494668,
+            "variable": "thermal[4,16]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal_per[4]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c14",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -0.0019045424289200958,
+            "variable": "hydroGeneration[1]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "hydroGeneration_per[1]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c15",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -0.007302516228016688,
+            "variable": "hydroGeneration[2]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "hydroGeneration_per[2]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c16",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -0.010911003310398406,
+            "variable": "hydroGeneration[3]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "hydroGeneration_per[3]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c17",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -0.005874788287317096,
+            "variable": "hydroGeneration[4]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "hydroGeneration_per[4]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c18",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,1]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,2]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,3]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,4]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,5]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,6]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,7]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,8]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,9]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,10]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,11]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,12]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,13]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,14]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,15]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,16]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,17]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,18]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,19]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,20]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,21]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,22]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,23]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,24]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,25]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,26]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,27]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,28]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,29]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,30]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,31]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,32]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,33]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,34]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,35]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,36]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,37]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[1,38]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal_2[1]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c19",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[2,1]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[2,2]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[2,3]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[2,4]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[2,5]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[2,6]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[2,7]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[2,8]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[2,9]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[2,10]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[2,11]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[2,12]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[2,13]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal_2[2]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c20",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,1]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,2]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,3]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,4]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,5]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,6]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,7]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,8]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,9]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,10]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,11]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,12]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,13]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,14]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,15]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,16]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,17]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,18]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,19]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,20]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,21]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,22]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,23]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,24]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,25]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,26]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,27]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,28]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,29]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[3,30]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal_2[3]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c21",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[4,1]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[4,2]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[4,3]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[4,4]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[4,5]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[4,6]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[4,7]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[4,8]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[4,9]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[4,10]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[4,11]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[4,12]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[4,13]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[4,14]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[4,15]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "thermal[4,16]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal_2[4]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c22",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -0.0004982124138590736,
+            "variable": "spillEnergy[1]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "spill_per[1]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c23",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -0.005097567440817242,
+            "variable": "spillEnergy[2]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "spill_per[2]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c24",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -0.0019302746201702117,
+            "variable": "spillEnergy[3]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "spill_per[3]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c25",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -0.007846275765208044,
+            "variable": "spillEnergy[4]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "spill_per[4]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c26",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": 1.0,
+            "variable": "demanda_determ[1]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 46.14668123766805
+      }
+    },
+    {
+      "name": "c27",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": 1.0,
+            "variable": "demanda_determ[2]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 71.52876086081277
+      }
+    },
+    {
+      "name": "c28",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": 1.0,
+            "variable": "demanda_determ[3]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 38.39375474698713
+      }
+    },
+    {
+      "name": "c29",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": 1.0,
+            "variable": "demanda_determ[4]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 29.873003571610173
+      }
+    },
+    {
+      "name": "c30",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": 1.0,
+            "variable": "demanda_cres[1]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 46938.925
+      }
+    },
+    {
+      "name": "c31",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": 1.0,
+            "variable": "demanda_cres[2]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 11106.791666666666
+      }
+    },
+    {
+      "name": "c32",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": 1.0,
+            "variable": "demanda_cres[3]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 11025.116666666667
+      }
+    },
+    {
+      "name": "c33",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": 1.0,
+            "variable": "demanda_cres[4]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 6871.791666666667
+      }
+    },
+    {
+      "name": "c34",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -0.0009913144988865554,
+            "variable": "demanda_es[1]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "demanda_es_porcen[1]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c35",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -0.006493759497123264,
+            "variable": "demanda_es[2]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "demanda_es_porcen[2]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c36",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -0.0035114097994317843,
+            "variable": "demanda_es[3]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "demanda_es_porcen[3]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c37",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -0.004383419452914186,
+            "variable": "demanda_es[4]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "demanda_es_porcen[4]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "demand_constraint[1]",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -1.0,
+            "variable": "demanda_es[1]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "hydroGeneration[1]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,1]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,2]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,3]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,4]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,5]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,6]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,7]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,8]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,9]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,10]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,11]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,12]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,13]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,14]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,15]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,16]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,17]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,18]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,19]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,20]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,21]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,22]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,23]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,24]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,25]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,26]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,27]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,28]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,29]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,30]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,31]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,32]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,33]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,34]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,35]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,36]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,37]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[1,38]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "exchange[2,1]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "exchange[3,1]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "exchange[4,1]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "exchange[5,1]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "exchange[1,2]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "exchange[1,3]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "exchange[1,4]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "exchange[1,5]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "deficit[1,1]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "deficit[1,2]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "deficit[1,3]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "deficit[1,4]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "demand_constraint[2]",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -1.0,
+            "variable": "demanda_es[2]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "hydroGeneration[2]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[2,1]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[2,2]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[2,3]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[2,4]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[2,5]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[2,6]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[2,7]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[2,8]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[2,9]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[2,10]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[2,11]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[2,12]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[2,13]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "exchange[2,1]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "exchange[1,2]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "exchange[3,2]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "exchange[4,2]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "exchange[5,2]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "exchange[2,3]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "exchange[2,4]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "exchange[2,5]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "deficit[2,1]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "deficit[2,2]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "deficit[2,3]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "deficit[2,4]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "demand_constraint[3]",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -1.0,
+            "variable": "demanda_es[3]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "hydroGeneration[3]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,1]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,2]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,3]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,4]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,5]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,6]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,7]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,8]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,9]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,10]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,11]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,12]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,13]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,14]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,15]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,16]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,17]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,18]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,19]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,20]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,21]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,22]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,23]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,24]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,25]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,26]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,27]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,28]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,29]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[3,30]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "exchange[3,1]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "exchange[3,2]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "exchange[1,3]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "exchange[2,3]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "exchange[4,3]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "exchange[5,3]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "exchange[3,4]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "exchange[3,5]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "deficit[3,1]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "deficit[3,2]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "deficit[3,3]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "deficit[3,4]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "demand_constraint[4]",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": -1.0,
+            "variable": "demanda_es[4]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "hydroGeneration[4]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[4,1]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[4,2]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[4,3]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[4,4]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[4,5]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[4,6]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[4,7]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[4,8]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[4,9]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[4,10]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[4,11]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[4,12]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[4,13]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[4,14]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[4,15]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "thermal[4,16]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "exchange[4,1]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "exchange[4,2]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "exchange[4,3]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "exchange[1,4]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "exchange[2,4]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "exchange[3,4]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "exchange[5,4]"
+          },
+          {
+            "coefficient": -1.0,
+            "variable": "exchange[4,5]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "deficit[4,1]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "deficit[4,2]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "deficit[4,3]"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "deficit[4,4]"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 0.0
+      }
+    },
+    {
+      "name": "c1",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": 0.00024101848136778422,
+            "variable": "storedEnergy[1]_out"
+          },
+          {
+            "coefficient": 2377.4445670553464,
+            "variable": "storedEnergy[2]_out"
+          },
+          {
+            "coefficient": 23.64123033940651,
+            "variable": "storedEnergy[3]_out"
+          },
+          {
+            "coefficient": 0.00024101848136778422,
+            "variable": "storedEnergy[4]_out"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "x196"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 4.973031010523428e8
+      }
+    },
+    {
+      "name": "c2",
+      "function": {
+        "type": "ScalarAffineFunction",
+        "terms": [
+          {
+            "coefficient": 0.00017355711965596346,
+            "variable": "storedEnergy[1]_out"
+          },
+          {
+            "coefficient": 1744.8699316269344,
+            "variable": "storedEnergy[2]_out"
+          },
+          {
+            "coefficient": 1.543595563144729e-5,
+            "variable": "storedEnergy[3]_out"
+          },
+          {
+            "coefficient": 0.00017355711859306028,
+            "variable": "storedEnergy[4]_out"
+          },
+          {
+            "coefficient": 1.0,
+            "variable": "x196"
+          }
+        ],
+        "constant": 0.0
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 4.9329318099395674e8
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "storedEnergy[1]_in"
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 110821.02546784749
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "storedEnergy[2]_in"
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 11508.22288653463
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "storedEnergy[3]_in"
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 3730.632777404344
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "storedEnergy[4]_in"
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 7907.254365189934
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "inflow[1]"
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 15315.269734017254
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "inflow[2]"
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 4429.415052643475
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "inflow[3]"
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 4325.367659120086
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "inflow[4]"
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 2216.6200304167487
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "demanda_es[1]"
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 46801.512774034854
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "demanda_es[2]"
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 10960.848301152631
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "demanda_es[3]"
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 10580.098048693884
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "demanda_es[4]"
+      },
+      "set": {
+        "type": "EqualTo",
+        "value": 6798.27095544511
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "storedEnergy[1]_out"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "storedEnergy[2]_out"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "storedEnergy[3]_out"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "storedEnergy[4]_out"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "spillEnergy[1]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "spillEnergy[2]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "spillEnergy[3]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "spillEnergy[4]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "hydroGeneration[1]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "hydroGeneration[2]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "hydroGeneration[3]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "hydroGeneration[4]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,1]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,2]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,3]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,4]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,5]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,6]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,7]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,8]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,9]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,10]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,11]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,12]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,13]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,14]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,15]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,16]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,17]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,18]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,19]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,20]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,21]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,22]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,23]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,24]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,25]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,26]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,27]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,28]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,29]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,30]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,31]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,32]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,33]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,34]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,35]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,36]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,37]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,38]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,1]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,2]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,3]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,4]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,5]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,6]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,7]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,8]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,9]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,10]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,11]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,12]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,13]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,1]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,2]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,3]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,4]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,5]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,6]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,7]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,8]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,9]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,10]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,11]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,12]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,13]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,14]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,15]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,16]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,17]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,18]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,19]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,20]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,21]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,22]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,23]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,24]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,25]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,26]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,27]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,28]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,29]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,30]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,1]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,2]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,3]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,4]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,5]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,6]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,7]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,8]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,9]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,10]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,11]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,12]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,13]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,14]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,15]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,16]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[1,1]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[2,1]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[3,1]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[4,1]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[5,1]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[1,2]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[2,2]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[3,2]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[4,2]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[5,2]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[1,3]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[2,3]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[3,3]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[4,3]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[5,3]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[1,4]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[2,4]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[3,4]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[4,4]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[5,4]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[1,5]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[2,5]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[3,5]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[4,5]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[5,5]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "storedEnergy_per[1]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "storedEnergy_per[2]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "storedEnergy_per[3]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "storedEnergy_per[4]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "spill_per[1]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "spill_per[2]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "spill_per[3]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "spill_per[4]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal_per[1]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal_per[2]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal_per[3]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal_per[4]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal_2[1]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal_2[2]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal_2[3]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal_2[4]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "hydroGeneration_per[1]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "hydroGeneration_per[2]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "hydroGeneration_per[3]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "hydroGeneration_per[4]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "demanda_determ[1]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "demanda_determ[2]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "demanda_determ[3]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "demanda_determ[4]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "demanda_cres[1]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "demanda_cres[2]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "demanda_cres[3]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "demanda_cres[4]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "demanda_es_porcen[1]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "demanda_es_porcen[2]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "demanda_es_porcen[3]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "demanda_es_porcen[4]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[1,1]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[2,1]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[3,1]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[4,1]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[1,2]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[2,2]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[3,2]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[4,2]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[1,3]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[2,3]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[3,3]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[4,3]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[1,4]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[2,4]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[3,4]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[4,4]"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "z"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "x196"
+      },
+      "set": {
+        "type": "GreaterThan",
+        "lower": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "storedEnergy[1]_out"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 200717.6
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "storedEnergy[2]_out"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 19617.2
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "storedEnergy[3]_out"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 51806.1
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "storedEnergy[4]_out"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 12744.9
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "hydroGeneration[1]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 52506.05
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "hydroGeneration[2]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 13693.91
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "hydroGeneration[3]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 9165.06
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "hydroGeneration[4]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 17021.89
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,1]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 640.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,2]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 53.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,3]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 4474.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,4]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,5]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 1350.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,6]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 1338.3
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,7]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 38.5
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,8]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 204.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,9]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,10]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 136.12
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,11]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 140.44
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,12]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,13]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,14]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 50.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,15]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,16]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 1823.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,17]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 496.92
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,18]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 36.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,19]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 15.95
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,20]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 405.72
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,21]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 255.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,22]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 74.96
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,23]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 37.48
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,24]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,25]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 1560.7
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,26]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,27]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,28]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 15813.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,29]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 436.5
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,30]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,31]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 87.05
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,32]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 3136.78
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,33]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 1620.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,34]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,35]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 2870.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,36]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 1366.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,37]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 9478.7
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[1,38]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 432.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,1]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 345.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,2]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 8.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,3]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 350.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,4]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 3.6
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,5]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 330.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,6]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 220.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,7]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 10.32
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,8]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 80.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,9]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 110.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,10]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,11]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,12]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[2,13]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 248.57
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,1]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 16.79
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,2]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 61.32
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,3]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 594.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,4]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 28.02
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,5]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 53.12
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,6]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 98.5
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,7]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 143.04
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,8]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 94.08
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,9]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 31.95
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,10]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 365.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,11]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 429.63
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,12]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 1050.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,13]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 720.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,14]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 3431.33
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,15]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,16]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 55.99
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,17]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 6315.2
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,18]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 37.44
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,19]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 647.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,20]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 185.89
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,21]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 169.08
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,22]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 1041.6
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,23]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 1041.6
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,24]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 142.59
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,25]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 523.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,26]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 162.31
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,27]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 162.31
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,28]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 465.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,29]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 1047.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[3,30]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 200.74
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,1]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 56.3
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,2]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 2769.6
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,3]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 360.14
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,4]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 166.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,5]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 68.3
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,6]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 75.44
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,7]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 73.4
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,8]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 73.4
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,9]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 93.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,10]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 337.6
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,11]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 518.8
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,12]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 365.32
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,13]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 337.6
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,14]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 178.21
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,15]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 159.08
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "thermal[4,16]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 159.16
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[1,1]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[2,1]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 5625.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[3,1]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 6300.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[4,1]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[5,1]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 99999.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[1,2]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[2,2]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[3,2]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[4,2]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[5,2]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[1,3]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 4700.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[2,3]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[3,3]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[4,3]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[5,3]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 5500.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[1,4]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 2500.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[2,4]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[3,4]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[4,4]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[5,4]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 99999.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[1,5]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 4000.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[2,5]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[3,5]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[4,5]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 99999.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "exchange[5,5]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 0.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[1,1]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 2366.405955140704
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[2,1]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 559.9441815616174
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[3,1]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 555.8265711479551
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[4,1]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 346.4384564087538
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[1,2]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 2366.405955140704
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[2,2]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 559.9441815616174
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[3,2]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 555.8265711479551
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[4,2]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 346.4384564087538
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[1,3]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 4732.811910281408
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[2,3]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 1119.8883631232347
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[3,3]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 1111.6531422959101
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[4,3]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 692.8769128175076
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[1,4]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 37862.495282251264
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[2,4]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 8959.106904985878
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[3,4]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 8893.225138367281
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "deficit[4,4]"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 5543.0153025400605
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "z"
+      },
+      "set": {
+        "type": "LessThan",
+        "upper": 1.0
+      }
+    },
+    {
+      "function": {
+        "type": "Variable",
+        "name": "z"
+      },
+      "set": {
+        "type": "Integer"
+      }
+    }
+  ]
+}
